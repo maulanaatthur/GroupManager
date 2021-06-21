@@ -187,8 +187,7 @@ pesan yang disimpan diuraikan dengan benar, dan untuk memungkinkan Kamu membuat 
 dan mengetuknya akan membuka halaman di <code>someURL</code>.
 CONTOH: <code>[Tombol](buttonurl:example.com)</code>
 
-- <code>[buttontext](buttonurl:someURL)</code>: ini adalah penyempurnaan khusus untuk memungkinkan pengguna untuk memiliki \
-tombol telegram dalam markdown mereka. <code>buttontext</code> akan menjadi apa yang ditampilkan pada tombol, dan <code>someurl</code> \
+- <code>[buttontext](buttonurl:someURL)</code>: ini adalah format untuk membuat tombol pada /setwelcome mu atau yang lain. <code>buttontext</code> akan menjadi apa yang ditampilkan pada tombol, dan <code>someurl</code> \
 akan menjadi url yang dibuka.
 CONTOH: <code>[Tombol](buttonurl:example.com)</code>
 
@@ -206,20 +205,16 @@ Saya dibangun di python3, menggunakan \
 python-telegram-bot library, dan saya sepenuhnya opensource - Kamu dapat menemukan apa yang membuat saya\
 [disini](https://github.com/peaktogoo/HarukaAya))!
 
-Jangan ragu untuk mengirimkan pull request di github\
-atau permintaan fitur jika kamu punya :)
 
-Jika Kamu menikmati menggunakan saya dan / atau ingin membantu saya bertahan di alam liar, tekan /donate untuk membantu upgrade VPS saya!
 """,
 
     "send-help": """Hai disana! Nama saya *{}*.
-Saya bot manajemen grup modular dengan beberapa tambahan fitur menyenangkan! Lihatlah beberapa fitur berikut untuk mendapatkan petunjuk tentang hal yang bisa saya bantu.
+Saya bot manajemen grup modular dengan beberapa tambahan fitur! Lihatlah beberapa fitur berikut untuk mendapatkan petunjuk tentang hal yang bisa saya bantu.
 
 Perintah tersedia:
  - /start: Perintah keren untuk memeriksa apakah bot masih hidup atau tidak
  - /help: Bantuan.
  - /help <nama modul>: Bantuan tentang modul.
- - /donate: informasi tentang cara menyumbang!
  - /lang: mengubah bahasa bot
  - /settings:
    -di PM: akan mengirimkan setelan untuk semua modul yang didukung.
@@ -567,7 +562,7 @@ Perintah tersedia:
 "AFK_help": """ - /afk <reason>: tandai diri Kamu sebagai AFK.
  - brb <reason>: sama dengan perintah afk - tetapi bukan perintah.
 
-Ketika ditandai sebagai AFK, sebutan apa pun akan dijawab dengan pesan untuk mengatakan bahwa Kamu tidak tersedia! """,
+Ketika ditandai sebagai AFK, sebutan apa pun akan dijawab dengan pesan untuk mengatakan bahwa kamu sedang tidak ada! """,
 
 "AntiFlood_help": """kau tahu bagaimana kadang-kadang, orang-orang yang bergabung, mengirim pesan 100 dan merusak obrolan? Dengan antiflood, itu tidak akan terjadi lagi!
 
