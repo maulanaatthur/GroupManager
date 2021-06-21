@@ -311,9 +311,7 @@ __help__ = """
  - /import: reply to the backup file for the butler / emilia group to import as much as possible, making transfers very easy! \
  Note that files / photos cannot be imported due to telegram restrictions.
 
- - /export: export group data, which will be exported are: rules, notes (documents, images, music, video, audio, voice, text, text buttons) \
-
-This module is still in beta! Report bugs in @HarukaAyaGroup !
+ - /export: export group data, which will be exported are: rules, notes (documents, images, music, video, audio, voice, text, text buttons) 
 """
 
 IMPORT_HANDLER = CommandHandler("import", import_data)
