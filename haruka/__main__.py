@@ -573,11 +573,10 @@ def main():
     dispatcher.add_handler(settings_callback_handler)
     dispatcher.add_handler(migrate_handler)
 
-    # dispatcher.add_error_handler(error_callback)
+    dispatcher.add_error_handler(error_callback)
 
     # add antiflood processor
-    Dispatcher.process_update = process_update
-
+    
     if WEBHOOK:
         LOGGER.info("Using webhooks.")
         updater.start_webhook(listen="0.0.0.0",
