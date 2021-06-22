@@ -573,7 +573,7 @@ def main():
     dispatcher.add_handler(settings_callback_handler)
     dispatcher.add_handler(migrate_handler)
 
-    dispatcher.add_error_handler(error_callback)
+    # dispatcher.add_error_handler(error_callback)
     dispatcher.process_update = process_update
     # add antiflood processor
     
