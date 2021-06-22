@@ -610,7 +610,7 @@ def process_update(self, update):
         return
 
     now = datetime.datetime.utcnow()
-    cnt = CHATS_CNT.get(update.effective_chat.id)
+    cnt = CHATS_CNT.get(update.effective_chat.id,0)
 
     t = CHATS_TIME.get(update.effective_chat.id, datetime.datetime(1970, 1, 1))
     if t and now > t + datetime.timedelta(0, 1):
