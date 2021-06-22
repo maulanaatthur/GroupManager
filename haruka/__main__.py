@@ -593,7 +593,6 @@ def main():
         LOGGER.info("Using long polling.")
         updater.start_polling(timeout=15, read_latency=4)
 
-    updater.idle()
 CHATS_CNT = {}
 CHATS_TIME = {}
 
@@ -647,6 +646,8 @@ def process_update(self, update):
         # Errors should not stop the thread.
         except Exception:
             self.logger.exception('An uncaught error was raised while processing the update')
+
+    updater.idle()
 
 if __name__ == '__main__':
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
